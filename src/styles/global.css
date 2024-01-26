@@ -3,15 +3,6 @@ html {
 	font-family: sans-serif;
 }
 
-html.dark {
-	background-color: #0d0950;
-	color: #fff;
-}
-
-.dark .nav-links a {
-	color: #fff;
-}
-
 body {
 	margin: 0 auto;
 	width: 100%;
@@ -30,6 +21,7 @@ h1 {
 }
 
 /* nav styles */
+
 .hamburger {
 	padding-right: 20px;
 	cursor: pointer;
@@ -63,9 +55,8 @@ h1 {
 }
 
 .nav-links a:hover,
-a:focus {
+.nav-links a:focus {
 	background-color: #4c1d95;
-	color: white;
 }
 
 .expanded {
@@ -89,4 +80,13 @@ a:focus {
 	.hamburger {
 		display: none;
 	}
+}
+
+html.dark {
+	background-color: #0d0950;
+	color: #fff;
+}
+
+.dark .nav-links a {
+	color: #fff;
 }
